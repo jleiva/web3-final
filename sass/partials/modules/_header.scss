@@ -1,0 +1,40 @@
+.banner-header {
+	background: url(../img/banner-1.png) no-repeat; 
+	width: 100%;
+	height: 294px;
+}
+
+.banner-header h1 {
+	text-align: center;
+	color: $white-text;
+	width: 1000px;
+}
+
+.info-service-row {
+	background-color: $gray-shadow;
+	width: $service-row;
+	float: left;
+}
+
+.container-information p {
+	text-align: center;
+}
+
+.bar-top-footer {
+	background-color: $gray-footer;
+	display: inline-block;
+	height: -130px;
+	text-align: center;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.bottom-bar {
+	background-color: $black-footer;
+	height: 50px;
+}
+
+.bottom-bar em {
+	color: $white-text;
+	float: left;
+}

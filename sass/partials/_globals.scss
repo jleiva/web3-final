@@ -1,0 +1,54 @@
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+a {
+	text-decoration: none;
+	font-size: $text-size;
+}
+
+body {
+	font: 100% $font-primary;
+}
+
+h3 {
+	font-size: $text-size;
+}
+
+li {
+	display: inline-block;
+	list-style: none;
+}
+
+h1 {
+	font-size: $title-size;
+}
+
+html {
+	box-sizing: border-box;
+	margin: 0px auto;
+	width: 1080px;
+}
+
+p {
+	font-size: $paragraph-size;
+}
+
+main {
+	section {
+		overflow: hidden;
+	}
+}
+
+ul {
+	margin: 0;
+}
+
+nav {
+	margin: 5px;
+	padding: 8px;
+}
+
+
